@@ -1,0 +1,16 @@
+﻿body {
+}
+
+table tr th {
+    background-color:navy;
+    color:white;
+    border:solid 2px black;
+}
+
+table tr td {
+    border:solid;
+}
+
+.result {
+    color:green;
+}
