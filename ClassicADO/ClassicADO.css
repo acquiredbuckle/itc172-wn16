@@ -1,0 +1,38 @@
+﻿
+
+body {
+    font-family:Tahoma, Arial;
+    font-size:large;
+}
+
+h1{
+    width:50%;
+    color:green;
+
+}
+
+hr{
+    width:40%;
+    text-align:left;
+}
+
+table{
+    margin-top:3.3em;
+}
+
+table tr th{
+    background-color:forestgreen;
+    color:white;
+    border:solid 2px black;
+}
+
+table tr td{
+    border:solid 2px black;
+    padding:4px 4px 4px 4px;
+}
+
+.list{
+    font-family:Tahoma, Arial;
+    font-size:medium;
+}
+
