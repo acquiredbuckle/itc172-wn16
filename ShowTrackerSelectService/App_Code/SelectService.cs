@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 
-// NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "ISelectService" in code, svc and config file together.
+// NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "SelectService" in code, svc and config file together.
 public class SelectService : ISelectService
 {
     ShowTrackerEntities stde = new ShowTrackerEntities();
@@ -58,7 +58,7 @@ public class SelectService : ISelectService
                    {
                        s.ShowName,
                        s.ShowDate,
-                  
+
                    };
 
         foreach (var v in shows)
@@ -68,10 +68,11 @@ public class SelectService : ISelectService
             lite.ShowDate = v.ShowDate;
             shows.Add(lite);
         }
-  
+
 
         return shows;
     }
 
 
 }
+
