@@ -14,6 +14,15 @@ public interface IShowTrackLoginService
 
     [OperationContract]
     int VenueRegistration(VenueLite v);
+
+    [OperationContract]
+    int AddArtist(ArtistLite a);
+
+    [OperationContract]
+    int AddShow(ShowLite s);
+
+    [OperationContract]
+    int AddShowDetail(ShowDetailLite sd);
 }
 
 
@@ -53,4 +62,60 @@ public class VenueLite
 
     [DataMember]
     public string VenueLoginPasswordPlain { set; get; }
+}
+
+[DataContract]
+public class ShowLite 
+{
+    [DataMember]
+    public string ShowName { get; set; }
+
+    [DataMember]
+    public int VenueKey { get; set; }
+
+    [DataMember]
+    public DateTime ShowDate { get; set; }
+
+    [DataMember]
+    public TimeSpan ShowTime { get; set; }
+
+    [DataMember]
+    public string ShowTicketInfo { get; set; }
+
+
+}
+
+[DataContract]
+public class ShowDetailLite
+{
+    [DataMember]
+    public int Showkey { get; set; }
+
+    [DataMember]
+    public int ArtistKey { get; set; }
+
+    [DataMember]
+    public TimeSpan ShowDetailArtistStartTime { get; set; }
+
+    [DataMember]
+    public string ShowDetailAdditional { get; set; }
+
+}
+
+[DataContract]
+public class ArtistLite
+{
+    [DataMember]
+    public string ArtistName { get; set; }
+
+    [DataMember]
+    public string ArtistEmail { get; set; }
+
+    [DataMember]
+    public string ArtistWebPage { get; set; }
+
+    [DataMember]
+    public DateTime ArtistDateEntered { get; set; }
+
+  
 }
