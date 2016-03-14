@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="eafe9dc9-92eb-4af8-9493-dd41150113c2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1176/ShowTrackLoginService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ShowTrackLoginService.xsd" MetadataType="Schema" ID="dc0dfd3e-f3ce-469e-8658-6ab668a6a07c" SourceId="1" SourceUrl="http://localhost:1176/ShowTrackLoginService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ShowTrackLoginService1.xsd" MetadataType="Schema" ID="a79ec66c-75d1-4591-90c9-f92e98a0dfc0" SourceId="1" SourceUrl="http://localhost:1176/ShowTrackLoginService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ShowTrackLoginService2.xsd" MetadataType="Schema" ID="9660d16d-019e-4b0d-9d65-4864d2527435" SourceId="1" SourceUrl="http://localhost:1176/ShowTrackLoginService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ShowTrackLoginService.disco" MetadataType="Disco" ID="813eefd4-f803-45ac-9052-ce5db826f39e" SourceId="1" SourceUrl="http://localhost:1176/ShowTrackLoginService.svc?disco" />
+    <MetadataFile FileName="ShowTrackLoginService.wsdl" MetadataType="Wsdl" ID="bb367538-ffbb-48f5-bf4e-3da17ca68c7f" SourceId="1" SourceUrl="http://localhost:1176/ShowTrackLoginService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
